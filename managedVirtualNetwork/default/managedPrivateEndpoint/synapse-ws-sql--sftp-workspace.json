@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sql--sftp-workspace",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/750575ff-ab82-4fa7-9a62-b7052fd86473/resourceGroups/testgroup/providers/Microsoft.Synapse/workspaces/sftp-workspace",
+		"groupId": "sql",
+		"fqdns": [
+			"sftp-workspace.8fb6d527-830d-414d-a21b-d18b9baa929d.sql.azuresynapse.net"
+		]
+	}
+}
