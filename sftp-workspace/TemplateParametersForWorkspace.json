@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "sftp-workspace"
+		},
+		"Sftp1_privateKeyContent": {
+			"value": ""
+		},
+		"Sftp1_passPhrase": {
+			"value": ""
+		},
+		"leonworkspace-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"sftp-workspace-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"Sftp1_properties_typeProperties_host": {
+			"value": "10.0.0.12"
+		},
+		"Sftp1_properties_typeProperties_userName": {
+			"value": "azureuser"
+		},
+		"leonworkspace-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://leonly.dfs.core.windows.net"
+		},
+		"sftp-workspace-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://leonly.dfs.core.windows.net"
+		}
+	}
+}
