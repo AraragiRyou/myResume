@@ -15,9 +15,10 @@
 		"typeProperties": {
 			"recurrence": {
 				"frequency": "Minute",
-				"interval": 15,
-				"startTime": "2022-08-04T10:16:00Z",
-				"timeZone": "UTC"
+				"interval": 1,
+				"startTime": "2022-08-04T19:30:00",
+				"endTime": "2022-08-05T10:25:06",
+				"timeZone": "Korea Standard Time"
 			}
 		}
 	}
