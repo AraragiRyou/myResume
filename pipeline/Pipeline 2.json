@@ -75,6 +75,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "1",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Notebook2",
@@ -89,6 +93,10 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
+								"notebook": {
+									"referenceName": "Notebook 1",
+									"type": "NotebookReference"
+								},
 								"snapshot": true
 							}
 						}
