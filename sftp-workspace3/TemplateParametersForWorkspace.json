@@ -1,0 +1,84 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "sftp-workspace3"
+		},
+		"sftp-workspace3-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"Sftp2_privateKeyContent": {
+			"value": ""
+		},
+		"Sftp2_passPhrase": {
+			"value": ""
+		},
+		"Sftp3123_password": {
+			"value": ""
+		},
+		"Sftp31242_password": {
+			"value": ""
+		},
+		"lb_password": {
+			"value": ""
+		},
+		"2_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"DWsynapse_connectionString": {
+			"value": ""
+		},
+		"sftp-workspace3-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://leonly.dfs.core.windows.net"
+		},
+		"Sftp2_properties_typeProperties_host": {
+			"value": "server1.sftp.com"
+		},
+		"Sftp2_properties_typeProperties_userName": {
+			"value": "sftp_user"
+		},
+		"Sftp3123_properties_typeProperties_host": {
+			"value": "lb.sftp.com"
+		},
+		"Sftp3123_properties_typeProperties_userName": {
+			"value": "test"
+		},
+		"Sftp31242_properties_typeProperties_host": {
+			"value": "server2.sftp.com"
+		},
+		"Sftp31242_properties_typeProperties_userName": {
+			"value": "test"
+		},
+		"lb_properties_typeProperties_host": {
+			"value": "loadbalancer.sftp.com"
+		},
+		"lb_properties_typeProperties_userName": {
+			"value": "sftp_user"
+		},
+		"2_properties_typeProperties_host": {
+			"value": "server1.sftp.net"
+		},
+		"2_properties_typeProperties_userName": {
+			"value": "sftp-user"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://leonly.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://leonly.dfs.core.windows.net/"
+		},
+		"bing-covid-19-data_sasUri": {
+			"value": ""
+		}
+	}
+}
